@@ -1,6 +1,6 @@
-#Exercícios
+# Exercícios
 
-##Caieirasfy
+## Caieirasfy
 
 Crie uma API Rest que simule o aplicativo do spotify. 
 Para isso será necessário criar uma model Musica com os seguintes atributos:
