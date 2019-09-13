@@ -23,10 +23,10 @@ A model do Artista deve conter:
 1. Estilos musicais
 
 A model de Musica deve conter:
-2. Nome da Musica,
-2. Tempo de reprodução 
-2. Artista
-2. Genero Musical
+1. Nome da Musica,
+1. Tempo de reprodução 
+1. Artista
+1. Genero Musical
 
 ## EndPoints 
 
