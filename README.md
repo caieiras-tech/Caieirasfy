@@ -12,3 +12,32 @@ Para isso será necessário criar uma model Musica com os seguintes atributos:
 Os úsuarios comuns podem apenas visualizer as musicas, enquanto os usuarios logados poderão cadastrar ou excluir musicas no banco de dados.
 
 A aplicação deve permitir buscar musicas, por nome do artista, nome da musica ou genero musical.
+
+# Refatoração 
+
+Faça uma API Rest para listar os artistas e suas músicas favoritas. Essa Api deve cadastrar um artista e cadastrar músicas vinculadas ao artista. 
+
+A model do Artista deve conter:
+1. Nome
+1. Idade
+1. Estilos musicais
+
+A model de Musica deve conter:
+2. Nome da Musica,
+2. Tempo de reprodução 
+2. Artista
+2. Genero Musical
+
+## EndPoints 
+
+3. Artista deve conter um endpoint que exibi a lista de todos os artistas cadastrados. Essa lista deve conter apenas o **Nome e o Estilos musicais do artista.** 
+3. O Artista deve ter um endpoint com os detalhes completos do artista; **Nome, idade, Estilos Musicais e suas Músicas.**
+
+3. Para as musicas será necessario um endpoint para exibir a lista de músicas cadastradas. 
+3. Nessa lista deverá aparecer o **Nome da musica, Duração e Genero Musical.**
+3. A música deve ter um segundo endpoint para visualizar todos os detalhes da música; **Nome da Música, Tempo de Reprodução, Artista e Gênero Musical**
+
+O sistema deve ter filtros por **Nome da Musica, Artista ou Genero Musical.**
+
+
+
